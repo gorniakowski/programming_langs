@@ -4,7 +4,7 @@
 # part of your solution.
 
 class MyPiece < Piece
-  # The constant All_My_Pieces should be declared here
+# The constant All_My_Pieces should be declared here
  All_My_Pieces =All_Pieces +
                [rotations( [[0,0],[-1,0],[-2,0],[0,1],[-1,1]]), #not full square figure
                [[[0,0], [-1,0], [-2,0], [1,0], [2,0]], #ultra long (only two)
